@@ -3,7 +3,7 @@
 Repository: [dream-unity/two](https://github.com/dream-unity/two)  
 Intended address: https://dreamuniversity.one/
 
-This repository prepares a small static holding page for Dream University. It uses the parchment and ink palette of Dream Unity and links all three stages. The programme itself remains in preparation.
+Dream University’s founding website, using the original Dream Unity portal artwork, parchment and ink palette, and Palatino typography. The page introduces the university vision, the emerging imagination programme, proposed study directions and research questions. Native links and expandable sections work without JavaScript. The academic programme remains in development.
 
 | Stage | Repository | Domain |
 | --- | --- | --- |
@@ -13,7 +13,7 @@ This repository prepares a small static holding page for Dream University. It us
 
 ## Preparation and activation
 
-`index.html` is self-contained. `CNAME` contains only `dreamuniversity.one`; `.nojekyll` allows direct static publication. No install or build command is needed.
+`index.html`, `styles.css` and the original artwork in `assets/` form a static site with no external runtime dependencies. `CNAME` contains only `dreamuniversity.one`; `.nojekyll` allows direct static publication. No install or build command is needed.
 
 **Preparation is not activation.** Repository files do not establish that Pages settings, DNS or HTTPS are ready. This preparation has not changed those settings.
 
