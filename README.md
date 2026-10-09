@@ -3,7 +3,24 @@
 Repository: [dream-unity/two](https://github.com/dream-unity/two)  
 Intended address: https://dreamuniversity.one/
 
-Dream University’s founding website, using the original Dream Unity portal artwork, parchment and ink palette, and Palatino typography. The page introduces the university vision, the emerging imagination programme, proposed study directions and research questions. Native links and expandable sections work without JavaScript. The academic programme remains in development.
+Dream University’s world-creation university website, retaining the original Dream portal identity, parchment and ink palette, Palatino typography and architectural linework.
+
+The academic experience includes four proposed schools, a five-stage Imagination & World Creation curriculum, three illustrative studio briefs, research directions and preparation guidance. The Dream Unity → Dream University → Dream Universe progression remains connected. The curriculum and schools are founding design proposals; the site does not represent enrolment or formal qualifications as available.
+
+Native disclosures work without JavaScript. The small `university.js` enhancement opens a linked curriculum field or studio brief before scrolling, including direct fragment entry and back/forward navigation. The layout includes mobile breakpoints, reduced-motion preferences, a skip link, accessible artwork descriptions and visible keyboard focus.
+
+## Artwork
+
+`assets/worldbuilding-plate.webp` is a new illustration generated with the built-in image-generation tool, then encoded as WebP without visual alteration. The original portal asset is retained in the masthead and closing section. Studio illustrations and the favicon are code-native SVG.
+
+Generation brief: a sophisticated Renaissance architect’s worldbuilding study on pale ivory parchment; a spherical miniature world with a terraced university city, domed observatory, delicate bridges, winding river, mountains and trees; exposed geology and roots beneath; fine compass construction lines and small unlabelled studies around it; warm monochrome ink and graphite, centered with clear paper margins, no text or modern UI.
+
+## Checks
+
+- JavaScript syntax checked with `node --check university.js`.
+- Local asset paths, fragment links, unique IDs, image alternatives and accessible label references checked against the HTML.
+- The custom-domain file and Pages publication marker are preserved.
+- Browser rendering was not verified in the editing session because the supported preview capability was unavailable.
 
 | Stage | Repository | Domain |
 | --- | --- | --- |
@@ -13,7 +30,7 @@ Dream University’s founding website, using the original Dream Unity portal art
 
 ## Preparation and activation
 
-`index.html`, `styles.css` and the original artwork in `assets/` form a static site with no external runtime dependencies. `CNAME` contains only `dreamuniversity.one`; `.nojekyll` allows direct static publication. No install or build command is needed.
+`index.html`, `styles.css`, `university.js` and the artwork in `assets/` form a static site with no external runtime dependencies. `CNAME` contains only `dreamuniversity.one`; `.nojekyll` allows direct static publication. No install or build command is needed.
 
 **Preparation is not activation.** Repository files do not establish that Pages settings, DNS or HTTPS are ready. This preparation has not changed those settings.
 
